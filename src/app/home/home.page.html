@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      App Ionic
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,53 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">App Ionic</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12">
+
+        <ion-button routerLink="/inicio" color="primary" expand="block" shape="round">          
+          <ion-icon slot="start" name="albums-outline"></ion-icon>
+          Modal
+        </ion-button>
+               
+      </ion-col>
+      <ion-col size="12">
+
+        <ion-button routerLink="/alert" color="primary" expand="block" shape="round">          
+          <ion-icon slot="start" name="alert-circle-outline"></ion-icon>
+          Alerta
+        </ion-button>
+
+      </ion-col>
+
+      <ion-col size="12">
+
+        <ion-button routerLink="/list" color="primary" expand="block" shape="round">          
+          <ion-icon slot="start" name="list-outline"></ion-icon>
+          Lista
+        </ion-button>
+
+      </ion-col>
+
+      <ion-col size="12">
+
+        <ion-button routerLink="/slides" color="primary" expand="block" shape="round">          
+          <ion-icon slot="start" name="images-outline"></ion-icon>
+          Slides
+        </ion-button>
+
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
 
   <div id="container">
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
+
 </ion-content>

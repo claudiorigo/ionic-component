@@ -1,0 +1,51 @@
+<app-header titulo="Listas"></app-header>
+
+<ion-content>
+
+  <ion-list>
+    <!-- Default List Header -->
+    <ion-list-header>
+      <ion-label>Titulo Header Lista</ion-label>
+    </ion-list-header>
+    <!-- List Header with Outline Button -->
+    <ion-list-header>
+      <ion-label>New This Week</ion-label>
+      <ion-button fill="outline">See All</ion-button>
+    </ion-list-header>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-label>TOUCH IZQ</ion-label>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="unread(item)">Saludos</ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item>
+      <ion-label>Input</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Toggle</ion-label>
+      <ion-toggle slot="end"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Radio</ion-label>
+      <ion-radio slot="end"></ion-radio>
+    </ion-item>
+    <ion-item>
+      <ion-label>Checkbox</ion-label>
+      <ion-checkbox slot="start"></ion-checkbox>
+    </ion-item>
+    <ion-item detail>
+      <ion-label color="primary">
+          <h1>Lista de Música</h1>
+      </ion-label>
+    </ion-item>
+    
+  </ion-list>
+  
+  
+
+</ion-content>

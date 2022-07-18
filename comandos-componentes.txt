@@ -1,0 +1,6 @@
+# Crear App, posecionar en carpeta y crear proyecto.
+$ ionic start componentes blank
+# Después de terminar instalación ionic, lo abrimo via web
+$ ionic serve
+# Crear una pagina nueva en este caso con nombre inicio.
+$ ionic g page inicio

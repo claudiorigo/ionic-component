@@ -1,0 +1,128 @@
+<app-header titulo="Slides"></app-header>
+
+<ion-content color="dark">
+
+
+
+  
+  <ion-slides pager="true">
+
+    <ion-slide>           
+      <ion-card>
+
+        <ion-card-header>
+          <ion-card-subtitle>Slide 1</ion-card-subtitle>      
+          <ion-card-title>Card Title</ion-card-title>
+        </ion-card-header>    
+    
+        <ion-item>      
+          <ion-img src="https://images.unsplash.com/photo-1601972602237-8c79241e468b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&q=80"></ion-img>
+        </ion-item>    
+        
+        <ion-card-content>
+          Keep close to Nature's heart... and break clear away, once in awhile,
+          and climb a mountain or spend a week in the woods. Wash your spirit.
+        </ion-card-content>
+    
+    
+        <ion-item class="ion-activated">
+          <ion-icon name="image-outline" slot="start"></ion-icon>
+          <ion-label>Card Button Item 1</ion-label>
+          <ion-button fill="outline" slot="end">View</ion-button>
+        </ion-item>
+    
+        <ion-item>
+          <ion-avatar slot="start">
+            <ion-img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&q=80"></ion-img>
+          </ion-avatar>
+          <ion-label>Item Avatar</ion-label>
+        </ion-item>    
+    
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+
+        <ion-card-header>
+          <ion-card-subtitle>Slide 2</ion-card-subtitle>      
+          <ion-card-title>Card Title</ion-card-title>
+        </ion-card-header>    
+    
+        <ion-item>      
+          <ion-img src="https://images.unsplash.com/photo-1514996550219-62672472d03b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&q=80"></ion-img>
+        </ion-item>    
+        
+        <ion-card-content>
+          Keep close to Nature's heart... and break clear away, once in awhile,
+          and climb a mountain or spend a week in the woods. Wash your spirit.
+        </ion-card-content>
+    
+    
+        <ion-item class="ion-activated">
+          <ion-icon name="image-outline" slot="start"></ion-icon>
+          <ion-label>Card Button Item 2</ion-label>
+          <ion-button fill="outline" slot="end">View</ion-button>
+        </ion-item>
+    
+        <ion-item>
+          <ion-avatar slot="start">
+            <ion-img src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&q=80"></ion-img>
+          </ion-avatar>
+          <ion-label>Item Avatar</ion-label>
+        </ion-item>    
+    
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+
+        <ion-card-header>
+          <ion-card-subtitle>Slide 3</ion-card-subtitle>      
+          <ion-card-title>Card Title</ion-card-title>
+        </ion-card-header>    
+    
+        <ion-item>      
+          <ion-img src="https://images.unsplash.com/photo-1514575110897-1253ff7b2ccb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&q=80"></ion-img>
+        </ion-item>    
+        
+        <ion-card-content>
+          Keep close to Nature's heart... and break clear away, once in awhile,
+          and climb a mountain or spend a week in the woods. Wash your spirit.
+        </ion-card-content>
+    
+    
+        <ion-item class="ion-activated">
+          <ion-icon name="image-outline" slot="start"></ion-icon>
+          <ion-label>Card Button Item 3</ion-label>
+          <ion-button fill="outline" slot="end">View</ion-button>
+        </ion-item>
+    
+        <ion-item>
+          <ion-avatar slot="start">
+            <ion-img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&q=80"></ion-img>
+          </ion-avatar>
+          <ion-label>Item Avatar</ion-label>
+        </ion-item>    
+    
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+  
+  
+ 
+
+
+
+  <script>
+    var slides = document.querySelector('ion-slides');
+    // Optional parameters to pass to the swiper instance.
+    // See https://swiperjs.com/swiper-api for valid options.
+    slides.options = {
+      initialSlide: 1,
+      speed: 400
+    }
+  </script>
+
+</ion-content>
